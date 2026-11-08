@@ -1,0 +1,77 @@
+{
+    "aperture_mm": 4.0,
+    "target": "250um",
+    "channel": "Green G1",
+    "LED_positions": [
+        [
+            3,
+            2
+        ],
+        [
+            3,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            5,
+            2
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "central_LED": [
+        4,
+        4
+    ],
+    "number_of_target_frames": 15,
+    "number_of_dark_frames": 5,
+    "number_of_ambient_frames": 5,
+    "correction": "corrected = target - average_ambient; average_dark retained separately for diagnostics",
+    "display_min_DN": 0.0,
+    "display_max_DN": 95.0
+}
